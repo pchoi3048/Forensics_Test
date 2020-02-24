@@ -22,5 +22,3 @@ on d.emp_id = c.emp_id
 		sum(sale_value) as total_sales
 from joint
 group by department
-
-Select * from employee_sales
