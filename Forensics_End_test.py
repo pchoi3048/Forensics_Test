@@ -27,4 +27,4 @@ gb=df.groupby('department')
 list(df.groupby('department'))
 
 gbs=df.groupby('department').agg({'sale_value':["sum","mean"]})
-gbs.to_csv(index=False)
+gbs.to_csv(r'C:\Users\Peter A Choi\Documents\forensics end test\forensics_end_test\Output\groupby_data.csv', index=False, header=True)
