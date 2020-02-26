@@ -1,6 +1,7 @@
 # Data
 /Data
 *.csv
+*.xlsx
 
 
 # Byte-compiled / optimized / DLL files
