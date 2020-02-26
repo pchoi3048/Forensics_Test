@@ -29,5 +29,5 @@ from joint
 group by department
 """, conn)
 df = pd.DataFrame(sql_command, columns=['department', 'total_number_of_sales', 'total_sales'])
-df.to_csv(r'C:\Users\Peter A Choi\Documents\projects\export_data.csv', index=False, header=True)
+df.to_csv(r'C:\Users\Peter A Choi\Documents\forensics end test\forensics_end_test\export_data.csv', index=False, header=True)
 print(df)
